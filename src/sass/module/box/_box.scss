@@ -1,0 +1,26 @@
+@use "global" as *;
+.box {
+  display: inline-block;
+  width: rem(300);
+  background-color: #f00;
+  overflow: hidden;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// 擬似要素で画像を表示
+.box::before {
+  display: inline-block;
+  content: "";
+  padding-top: 75%;
+  background-image: url(/images/mameta1.JPG);
+  background-size: cover;
+  width: 100%;
+  transform: scale(1.5);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
