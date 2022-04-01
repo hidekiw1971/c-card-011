@@ -2,7 +2,8 @@
 
 ## イメージ画像
 
-- xxx
+- <img width="408" alt="image" src="https://user-images.githubusercontent.com/99580997/161256966-41306db3-0a8c-4e35-8aac-8cbf92a51235.png">
+
 
 ## 概要
 
@@ -18,7 +19,8 @@
 
 ## 注意事項
 
-- xxx
+- 今は`aspect-ratio: 4/3;`こちらが使える。簡単。
+- https://ryu-webstudy.com/2021/10/28/aspect/
 
 ## 使い方
 
@@ -28,10 +30,14 @@
 ## w3c html チェック結果
 
 - https://validator.w3.org/nu/
+- <img width="749" alt="image" src="https://user-images.githubusercontent.com/99580997/161257024-68947463-6963-431a-b853-343fa65a7377.png">
+
 
 ## w3c css チェック結果
 
 - https://jigsaw.w3.org/css-validator/
+- <img width="951" alt="image" src="https://user-images.githubusercontent.com/99580997/161257097-e41dbbe2-5f2b-49f2-a9c7-a5dd54606257.png">
+
 
 ## portfolio url:
 
