@@ -49,6 +49,7 @@
 
 ## 更新履歴
 
+- 2022/4/5 `.box`の`width`指定に相違があったので修正。
 - 2022/4/5 タイトル、テキストの background-color、color を設定。
 - 2022/4/5 隙間が埋めれた。class=box の display:inline-box を block に変更すれば良かった。→ 対応済
 - 2022/4/4 padding-top を当てるクラスと img を当てるクラスが相違してたので、修正。→ 完了

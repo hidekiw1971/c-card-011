@@ -3,7 +3,7 @@
   background-color: #f00;
   display: inline-block;
   max-width: rem(375);
-  width: 100;
+  width: 100%;
   @include mq(md) {
   }
   @include mq(xl) {

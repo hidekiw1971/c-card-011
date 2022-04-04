@@ -214,7 +214,7 @@ select::-ms-expand {
   display: inline-block;
   max-width: 375px;
   max-width: 23.4375rem;
-  width: 100;
+  width: 100%;
 }
 .outside {
   max-width: 375px;
