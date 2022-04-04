@@ -1,10 +1,12 @@
 @use "global" as *;
 .box {
-  display: inline-block;
+  // display: inline-block;
+  display: block;
   width: rem(300);
   background-color: #f00;
   overflow: hidden;
   position: relative;
+  margin: 0 auto;
   @include mq(md) {
   }
   @include mq(xl) {

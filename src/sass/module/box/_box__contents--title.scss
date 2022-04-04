@@ -1,0 +1,7 @@
+@use "global" as *;
+.box__contents--title {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

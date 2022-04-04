@@ -176,6 +176,13 @@ select::-ms-expand {
 .wrap {
   text-align: center;
 }
+.box__contents--up {
+  width: 100%;
+  height: 100%;
+}
+.box__contents {
+  background-color: #333;
+}
 .box__img {
   background-image: url(/images/mameta1.JPG);
   background-size: cover;
@@ -187,16 +194,25 @@ select::-ms-expand {
   height: 100%;
 }
 .box {
-  display: inline-block;
+  display: block;
   width: 300px;
   width: 18.75rem;
   background-color: #f00;
   overflow: hidden;
   position: relative;
+  margin: 0 auto;
 }
 .box::before {
   display: block;
   content: "";
   padding-top: 75%;
+}
+.outside {
+  max-width: 375px;
+  max-width: 23.4375rem;
+  width: 100%;
+  display: inline-block;
+  background-color: #f00;
+  color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */
