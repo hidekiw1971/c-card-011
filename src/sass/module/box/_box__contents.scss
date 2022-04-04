@@ -1,0 +1,8 @@
+@use "global" as *;
+.box__contents {
+  background-color: #f00;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

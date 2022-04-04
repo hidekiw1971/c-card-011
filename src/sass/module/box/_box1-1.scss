@@ -1,0 +1,10 @@
+@use "global" as *;
+.box1-1 {
+  display: inline-block;
+  max-width: rem(375);
+  width: 100;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -176,6 +176,9 @@ select::-ms-expand {
 .wrap {
   text-align: center;
 }
+.box__contents {
+  background-color: #f00;
+}
 .box__img {
   background-image: url(/images/mameta1.JPG);
   background-size: cover;
@@ -187,9 +190,10 @@ select::-ms-expand {
   height: 100%;
 }
 .box {
-  display: inline-block;
+  display: block;
   width: 300px;
   width: 18.75rem;
+  margin: 0 auto;
   background-color: #f00;
   overflow: hidden;
   position: relative;
@@ -198,5 +202,11 @@ select::-ms-expand {
   display: block;
   content: "";
   padding-top: 75%;
+}
+.box1-1 {
+  display: inline-block;
+  max-width: 375px;
+  max-width: 23.4375rem;
+  width: 100;
 }
 /*# sourceMappingURL=styles.css.map */

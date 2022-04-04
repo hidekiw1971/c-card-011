@@ -1,7 +1,9 @@
 @use "global" as *;
 .box {
-  display: inline-block;
+  // display: inline-block; ※これをblockにしないと画像の下に隙間ができる。
+  display: block;
   width: rem(300);
+  margin: 0 auto;
   background-color: #f00;
   overflow: hidden;
   position: relative;
