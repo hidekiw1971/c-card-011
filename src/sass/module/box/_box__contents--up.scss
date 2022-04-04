@@ -1,0 +1,16 @@
+@use "global" as *;
+.box__contents--up {
+  width: 100%;
+  height: 100%;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.box__contents--up > div {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
