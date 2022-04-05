@@ -2,7 +2,8 @@
 
 ## イメージ画像
 
-- <img width="408" alt="image" src="https://user-images.githubusercontent.com/99580997/161256966-41306db3-0a8c-4e35-8aac-8cbf92a51235.png">
+- <img width="413" alt="image" src="https://user-images.githubusercontent.com/99580997/161649752-4af94679-61aa-4237-b53f-1f0481c6e4c8.png">
+
 
 ## 概要
 
@@ -16,10 +17,22 @@
 - ルートフォントを vw で設定していることから PC サイズのレイアウトをタブレットで表示させることが出来ます（rem で書いた場合のみ）。
 - xxx
 
-## 注意事項
-
+## 注意事項 　
 - 今は`aspect-ratio: 4/3;`こちらが使える。簡単。
 - https://ryu-webstudy.com/2021/10/28/aspect/
+- 以下の`display: block;`指定を`display: inline-block;`にすると、画像の下に隙間ができてしまいます。
+- `@use "global" as *;`
+- `.box {`
+- `  // display: inline-block; ※これをblockにしないと画像の下に隙間ができる。`
+- `  display: block;`
+- `  width: rem(300);`
+- `  margin: 0 auto;`
+- `  background-color: #f00;`
+- `  overflow: hidden;`
+- `  position: relative;`
+- `  margin: 0 auto;`
+- `  @include mq(md) {`
+- `}`
 
 ## 使い方
 
@@ -48,7 +61,6 @@
 - https://ryu-webstudy.com/2021/10/28/aspect/
 
 ## 更新履歴
-
 - 2022/4/5 `.box`の`width`指定に相違があったので修正。
 - 2022/4/5 タイトル、テキストの background-color、color を設定。
 - 2022/4/5 隙間が埋めれた。class=box の display:inline-box を block に変更すれば良かった。→ 対応済
